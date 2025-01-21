@@ -1,0 +1,571 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #efefef;
+}
+
+/* --------------menu--------------- */
+
+.menu {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.menu img{
+  border-radius: 50%;
+  width: 3.5rem;
+  display: none;
+}
+
+.menu nav ul li {
+  padding: 0px;
+  list-style: none;
+  margin: 0rem 1rem;
+}
+
+.menu ul a{
+  text-decoration: none;
+  color: #000000;
+}
+
+.menu nav ul {
+  display: flex;
+}
+
+header h1 {
+  color: #e76a00;
+  text-shadow: 5px 5px 10px #41414196;
+}
+
+/* -----------baner------------ */
+
+.banner {
+  text-align: center;
+}
+
+.sub {
+  margin: 8rem auto 1rem;
+  width: 60%;
+}
+
+.sub span {
+  color: #e76a00;
+}
+
+h2 {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.inf p {
+  margin: auto;
+  text-align: center;
+  color: #000000;
+}
+
+main button {
+  box-shadow: 5px 5px 10px #41414196;
+  margin: 3rem 0rem;
+  font-size: 120%;
+  padding: 0.5rem 0.8rem;
+  border-radius: 12px;
+  border-color: #00000000;
+  background: #e76a00;
+  color: #ffffff;
+}
+
+/* --------------Nosotros---------------------- */
+
+.Nosotros {
+  margin: 9rem 0rem ;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  flex-wrap: wrap;
+}
+
+.Nosotros p{
+font-size: 120%;
+}
+.barralat {
+  height: 50vh;
+  width: 4rem;
+  margin: 2rem;
+  background: #e76a00;
+  border-radius: 3px;
+}
+
+.nos1 {
+  display: flex;
+  align-items: center;
+  width: 60%;
+  padding: 1rem;
+}
+
+.nos1 h3 {
+  text-shadow: 5px 5px 10px #0000003a;
+  color: #e76a00;
+  font-size: 190%;
+  margin: 1rem 0rem;
+}
+
+.nos img {
+  width: 15rem;
+  border-radius: 50%;
+}
+
+/* -----------------trans--------------------------- */
+
+.trans{
+  width: 100%;
+  height: 30vh;
+  background: linear-gradient( #efefef,#060606 50% );
+}
+
+
+.trans1{
+  width: 100%;
+  height: 32vh;
+  background: linear-gradient( #060606 60% ,#efefef );;
+}
+/* -----------------------menu---------------------- */
+
+.menuu{
+ background: #060606;
+  color: #efefef;
+  padding: 4rem 0rem ;
+}
+
+.menuu .info_menu {
+  text-align: center;
+  margin: auto;
+  width: 60%;
+}
+
+.info_menu p {
+  margin: 2rem auto;
+}
+
+h3 {
+  text-shadow: 5px 5px 10px #ffffff4b;
+  font-size: 230%;
+  color: #e76a00;
+}
+
+
+.menulet h4 {
+  font-size: 170%;
+  color: #e76a00;
+  text-shadow: 6px 6px 10px #e76c0067;
+}
+
+.menulet ul {
+  list-style: none;
+}
+
+.menulet div {
+  margin: 3rem 0rem;
+}
+.menulet ul li {
+  margin: 1rem;
+}
+.hola {
+  display: flex;
+  justify-content: center;
+  gap: 6rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.meni_1 {
+  display: flex;
+  align-items: center;
+}
+
+
+.meni_2 {
+  width: 60%;
+  display: flex;
+  align-items: center;
+}
+
+
+.meni_2 .barralat {
+height: 100vh;
+width: 4rem;
+
+}
+
+.salsas .barralat{
+  width: 2rem;
+}
+
+.paBotanear li {
+  text-align: right;
+}
+
+.hamburguesas .barralat{
+  height: 200vh;
+}
+
+.hamburguesas li {
+  text-align: right;
+}
+.lonuevo li {
+  text-align: right;
+}
+
+.meni_2 p{
+  font-size: 100%;
+}
+
+.meni_2 span{
+  font-size: 150%;
+  font-weight:700;
+  margin: 1rem 0rem;
+}
+
+/* --------------------Promociones--------------------------------- */
+
+.promociones{
+  margin-top: 12rem;
+}
+.info_tarj {
+  width: 40%;
+  text-align: center;
+  font-size: 130%;
+  font-weight: 600;
+}
+.tarj_glob {
+  box-shadow: 5px 5px 10px #0000004b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+  background-color: #fffffff6;
+  padding: 1rem;
+  margin: 3rem auto;
+  border-radius: 12px;
+  width: 80%;
+  border-color: #000000 5px;
+}
+
+.promociones h4 {
+  text-align: center;
+  font-size: 190%;
+  color: #e76a00;
+  text-shadow: 5px 5px 10px #00000042;
+}
+
+.promociones img {
+  width: 15rem;
+  border-radius: 50%;
+}
+
+
+
+.info_tarj span{
+  color: #e76a00;
+font-weight: 750;
+font-size: 160%;
+}
+
+.tarj_glob .barralat {
+  width: 1.5rem;
+  background: #efefef00;
+  border-radius: 8px;
+  background-image: linear-gradient(to right, #e76a00 20%, #e76a00 100%);
+}
+
+.tarj_glob h5 {
+  font-size: 170%;
+  color: #e76a00;
+  margin-bottom: 2rem;
+  font-weight: 800;
+}
+
+/* ---------------------Locacion------------------- */
+
+.horario {
+  text-align: center;
+  margin: 12rem 0rem ;
+}
+
+.horario h4{
+  font-size: 190%;
+  color: #e76a00;
+  text-shadow: 5px 5px 10px #0000004b;
+}
+.horario .lo {
+  width: 70%;
+  margin:2rem auto 4rem;
+}
+
+.junt_3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  flex-wrap: wrap;
+}
+
+.junt_3 div {
+  width: 20rem;
+}
+
+.junt_3 h5{
+  text-shadow: 5px 5px 10px #0000004b;
+  font-size: 150%;
+}
+
+.junt_3 p{
+  font-size: 120%;
+}
+
+/* --------------footer---------------------- */
+
+footer{
+  text-align: center;
+  margin: 8rem 0rem 0rem;
+  background: #a1410b;
+  padding-top: 2rem;
+  color: #efefef;
+}
+
+.fot{
+  display: flex;
+  gap: 4rem;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.horario h5{
+  color: #e76a00;
+}
+
+footer h4{
+  font-size: 130%;
+}
+
+.fot_  {
+  width: 30rem;
+margin: 2rem 0rem;
+}
+
+footer img{
+  width: 36px;
+  margin: 0rem 1rem;
+ filter: invert();
+}
+.fot_w{
+ 
+  display: flex;
+  justify-content: center;
+}
+
+
+.ok{
+  padding: 1rem 0rem;
+}
+
+
+
+/* ----------------media queries------------------ */
+
+
+
+@media only screen and (max-width: 760px) {
+
+  .sub{
+    margin: 8rem auto 1rem;
+    width: 90%;
+  }
+
+.Nosotros .barralat{
+  width: 100%;
+  height: 3vh;
+  margin: 0rem;
+}
+  .nos1{
+    display: inline-block;
+  }
+ .Nosotros{
+  text-align: center;
+ }
+
+ .menuu .info_menu {
+  width: 80%;}
+
+/* -------------------menu------------------- */
+
+.hola{
+  gap: 0rem;
+  margin: 5rem 0rem;
+}
+
+.hola .barralat{
+  display:none ;
+}
+.hola nav ul li{
+text-align: left;
+}
+
+.meni_1{
+  display: block;
+  width: 80%;
+  text-align: center;
+}
+
+
+.menulet h4 {
+  font-size: 200%;
+}
+
+.dos{
+  display: flex;
+  flex-direction: column-reverse;
+}
+.meni_1 h4{
+  margin: 1rem 0rem 3rem;
+}
+.meni_2 {
+  width: 88%;
+  display: flex;
+  align-items: center;
+}
+
+.menuu .info_menu {
+margin-bottom: 14rem;
+}
+
+
+.menulet div  {
+  margin: 0rem 0rem;
+}
+
+.uno{
+ 
+  height: 3vh;
+  width: 100%;
+ 
+  background: #e76a00;
+  border-radius: 3px;
+}
+.menulet div {
+  margin: 2.5rem 0rem;
+}
+
+.tarj_glob {
+    display: block;
+   text-align: center;
+    padding: 1rem;
+    margin: 3rem auto;
+  
+    
+   
+}
+.tarj_glob .barralat{
+  margin:1rem  0rem 2rem;
+  width: 100%;
+  height: 3vh;
+}
+.info_tarj{
+  margin: auto;
+  width: 60%;
+}
+
+.tarj_glob img{
+  width: 13rem;
+  margin: 1rem 0rem;
+}
+}
+
+@media only screen and (max-width: 600px) {
+
+ .Nosotros .nos1 {
+    width: 90%;
+  }
+  .Nosotros p {
+    font-size: 100%;
+}
+  .horario .lo {
+    width: 80%;
+    margin: 2rem auto 4rem;
+  }
+  .info_tarj {
+    font-size: 100%;
+    width: 90%;
+  }
+  .menu nav{
+   display: none;
+  }
+
+  .menu img{
+   display: inline; 
+   box-shadow: 5px 5px 10px #0000004b;
+  }
+  
+  .menu {
+ 
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    
+ }
+
+ h2 {
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.sub {
+  margin: 5rem auto 1rem;
+}
+
+.fot{
+  gap: 0rem;
+ margin: 2rem 1rem;
+}
+
+}
+
+@media only screen and (max-width: 500px) {
+
+ h2{
+  font-size: 2.0rem;
+ }
+ header h1 {
+  color: #e76a00;
+  font-size: 160%;
+}
+.menu img {
+  width: 2rem;
+}
+.hola nav ul li {
+  font-size: 90%;
+}
+.meni_2 {
+  width: 95%;
+}
+}
+
+
+@media only screen and (max-width: 350px) {
+
+  h2{
+   font-size:1.6rem;
+  }
+  .inf p {
+    font-size: 90%;
+  }
+ }
+ 
