@@ -199,7 +199,7 @@ h3 {
 
 
 .meni_2 .barralat {
-height: 100vh;
+height: 60vh;
 width: 4rem;
 
 }
@@ -212,9 +212,6 @@ width: 4rem;
   text-align: right;
 }
 
-.hamburguesas .barralat{
-  height: 200vh;
-}
 
 .hamburguesas li {
   text-align: right;
