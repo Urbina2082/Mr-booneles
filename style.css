@@ -80,6 +80,12 @@ main button {
   color: #ffffff;
 }
 
+.banner .sub .fot_w { 
+display:flex;
+align-content:center;
+gap:1rem;
+}
+
 /* --------------Nosotros---------------------- */
 
 .Nosotros {
