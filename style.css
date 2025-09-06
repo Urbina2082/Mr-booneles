@@ -125,7 +125,7 @@ font-size: 120%;
 
 .nos img {
   width: 15rem;
-  border-radius: 50%;
+    border-radius: 50%;
 }
 
 /* -----------------trans--------------------------- */
@@ -205,7 +205,7 @@ h3 {
 
 
 .meni_2 .barralat {
-height: 60vh;
+height: 40vh;
 width: 4rem;
 
 }
