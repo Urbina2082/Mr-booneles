@@ -11,7 +11,7 @@ body {
 /* --------------menu--------------- */
 
 .menu {
-  margin-top: 2rem;
+  padding-top: 2rem;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -19,7 +19,7 @@ body {
 
 .menu img {
   border-radius: 50%;
-  width: 3.5rem;
+  width: 5.5rem;
   display: none;
 }
 
@@ -39,18 +39,28 @@ body {
 }
 
 header h1 {
-  color: #000000;
+  color: #ffffff;
   text-shadow: 5px 5px 10px #41414196;
 }
 
 /* -----------baner------------ */
+.container{
+  height: 90vh;
+   background: 
+    linear-gradient(rgba(0, 0, 0, 0.704), rgba(0, 0, 0, 0.704)), 
+    url(/img/images.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0rem 0rem 5rem 0rem;
+}
 
 .banner {
   text-align: center;
 }
 
-.sub {
-  margin: 8rem auto 1rem;
+.sub { 
+  padding: 8rem auto 1rem;
   width: 60%;
 }
 
@@ -67,7 +77,7 @@ h2 {
 .inf p {
   margin: auto;
   text-align: center;
-  color: #00000087;
+  color: #ffffffc0;
 } 
 
 main button {
@@ -77,8 +87,8 @@ main button {
   padding: 0.5rem 0.8rem;
   border-radius: 12px;
   border-color: #00000000;
-  background: #ffffff;
-  color:#f30707;
+  background: #f30707;
+  color:#ffffff;
   font-weight: 500;
 }
 
@@ -86,17 +96,20 @@ main button {
   display: flex;
   align-content: center;
   gap: 1rem;
+  filter: invert(1);
 }
+
+
 
 /* --------------Nosotros---------------------- */
 
 .Nosotros {
-  margin: 9rem 0rem;
+  margin: 5rem 0rem 6rem;
 
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 5rem;
+  gap: 2rem;
   flex-wrap: wrap;
 }
 
@@ -126,7 +139,7 @@ main button {
 }
 
 .nos img {
-  width: 15rem;
+  width: 24rem;
   border-radius: 50%;
 }
 
@@ -149,7 +162,7 @@ main button {
   /* background: #f3bc07; */
   background: #06060600;
   color: #d13b3b;
-  padding: 4rem 0rem;
+  padding: 1rem 0rem 2rem 0rem ;
 }
 
 .menuu .info_menu {
@@ -179,7 +192,7 @@ h3 {
 }
 
 .menulet div {
-  margin: 3rem 0rem;
+  margin: 2rem 0rem;
 }
 .menulet ul li {
   margin: 1rem;
@@ -253,7 +266,7 @@ h3 {
 }
 
 .gall img {
-  width: 22rem;
+  width: 20rem;
   border-radius: 1.5rem;
 } 
 
@@ -346,7 +359,7 @@ h3 {
 .junt_3 h5 {
   text-shadow: 5px 5px 10px #0000004b;
   font-size: 150%;
-  color: #d13b3b;
+  color: #f30707;
 }
 
 
@@ -360,9 +373,10 @@ h3 {
 footer {
   text-align: center;
   margin: 8rem 0rem 0rem;
-  background: #d13b3b;
+  /* background: #f30707;  rojo*/
+  background: #f3bc07;
   padding-top: 2rem;
-  color: #ffffff;
+  color: #000000;
 }
 
 .fot {
@@ -389,7 +403,7 @@ footer h4 {
 footer img {
   width: 36px;
   margin: 0rem 1rem;
-  filter: invert();
+  /* filter: invert(); */
 }
 .fot_w {
   display: flex;
@@ -429,7 +443,7 @@ footer img {
 
   .hola {
     gap: 0rem;
-    margin: 5rem 0rem;
+    margin: 4rem 0rem;
   }
 
   .hola .barralat {
@@ -481,7 +495,7 @@ footer img {
   }
 
   .menulet div {
-    margin: 2.5rem 0rem;
+    margin: 1rem 0rem;
   }
 
   .tarj_glob {
@@ -503,7 +517,7 @@ footer img {
 
   .tarj_glob img {
     width: 13rem;
-    margin: 1rem 0rem;
+    margin: 1rem 0rem; 
   }
 .menuu .info_menu h3 {
  font-size: 5rem;
@@ -538,6 +552,7 @@ footer img {
 
   .menu img {
     display: inline;
+  
     box-shadow: 5px 5px 10px #0000004b;
   }
 
@@ -556,12 +571,12 @@ footer img {
     margin: 5rem auto 1rem;
   }
 
-  .fot {
+  .fot { 
     gap: 0rem;
     margin: 2rem 1rem;
   }
   .galeria .gall {
-  width: 90%;
+  width: 95%;
 }
 
 .galeria h3{
@@ -572,6 +587,7 @@ footer img {
   width: 12rem;
   
 } 
+
 }
 
 @media only screen and (max-width: 500px) {
@@ -583,11 +599,11 @@ footer img {
     font-size: 2rem;
   }
   header h1 {
-    color: #e76a00;
+  
     font-size: 160%;
   }
   .menu img {
-    width: 2rem;
+    width: 4rem;
   }
   .hola nav ul li {
     font-size: 90%;
