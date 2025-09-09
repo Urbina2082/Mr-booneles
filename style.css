@@ -331,7 +331,11 @@ h3 {
 
 .horario {
   text-align: center;
-  margin: 12rem 0rem;
+  margin: 6rem 5rem;
+  background: #f3bc07;
+  border-radius: 1.5rem;
+  
+  padding: 6rem 0rem ;
 }
 
 .horario h4 {
@@ -523,6 +527,12 @@ footer img {
  font-size: 5rem;
 }
 
+.horario {
+  
+  margin: 6rem 2rem;
+ 
+}
+
 
 }
 
@@ -584,7 +594,7 @@ footer img {
 }
 
 .gall img {
-  width: 12rem;
+  width: 9rem;
   
 } 
 
