@@ -332,7 +332,8 @@ h3 {
 .horario {
   text-align: center;
   margin: 6rem 5rem;
-  background: #f3bc07;
+  /* background: #f3bc07; */
+  border:6px solid #f3bc07;
   border-radius: 1.5rem;
   
   padding: 6rem 0rem ;
@@ -528,7 +529,6 @@ footer img {
 }
 
 .horario {
-  
   margin: 6rem 2rem;
  
 }
