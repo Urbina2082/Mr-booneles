@@ -4,8 +4,25 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+
+@font-face {
+  font-family: 'mifont';
+  src: url(/fonts/Avigea.ttf)
+}
+
+
+@font-face {
+  font-family: 'mifont2';
+  src: url(/fonts/Coolvetica.otf);
+}
+@font-face {
+  font-family: 'mifonty';
+  src: url(/fonts/Plane\ Crash.ttf);
+}
+
 body {
-  background: #ffffff;
+  background: #eeeeee;
+
 }
 
 /* --------------menu--------------- */
@@ -40,6 +57,7 @@ body {
 
 header h1 {
   color: #ffffff;
+  font-family: 'mifont';
   text-shadow: 5px 5px 10px #41414196;
 }
 
@@ -66,18 +84,23 @@ header h1 {
 
 .sub span {
   color: #fff6f6;
+  font-family: 'mifonty';
+  
 }
 
 h2 {
   text-align: center;
   font-size: 3rem;
   color:#f3bc07;
+  font-family: 'mifonty';
+  
 }
 
 .inf p {
   margin: auto;
   text-align: center;
   color: #ffffffc0;
+   
 } 
 
 main button {
@@ -136,6 +159,7 @@ main button {
   color: #d13b3b;
   font-size: 190%;
   margin: 1rem 0rem;
+font-family: 'mifonty';
 }
 
 .nos img {
@@ -161,7 +185,7 @@ main button {
 .menuu {
   /* background: #f3bc07; */
   background: #06060600;
-  color: #d13b3b;
+  color:   #d13b3b;
   padding: 1rem 0rem 2rem 0rem ;
 }
 
@@ -179,12 +203,17 @@ h3 {
   text-shadow: 5px 5px 10px #ffffff4b;
   font-size: 230%;
   color: #000000;
+  font-family: 'mifont2';
 }
 
 .menulet h4 {
   font-size: 170%;
-  color: #000000;
-  text-shadow: 6px 6px 10px #fddc4f;
+ font-family: 'mifonty';
+  color:  #000000bd;
+  padding: 1.8rem; 
+  background: #fddc4f;
+  border-radius: 1.5rem;
+  text-shadow: 6px 6px 10px #00000069;
 }
 
 .menulet ul {
@@ -214,6 +243,10 @@ h3 {
   width: 60%;
   display: flex;
   align-items: center;
+  /* background: #d13b3b;
+  padding: .5rem;
+  border-radius: 1.5rem; */
+
 }
 
 .meni_2 .barralat {
@@ -252,6 +285,7 @@ h3 {
 .galeria h3{
   text-align: center;
   margin: 10rem 0rem 4rem;
+  font-family: 'mifonty';
   color: #fddc4f;
 }
 
@@ -297,20 +331,22 @@ h3 {
 
 .promociones h4 {
   text-align: center;
-  font-size: 190%;
+  font-size: 260%;
+  font-family: 'mifonty';
   color: #d13b3b;
   text-shadow: 5px 5px 10px #00000042;
 }
 
 .promociones img {
-  width: 15rem;
-  border-radius: 50%;
+  width: 19rem;
+  /* border-radius: 50%; */
 }
 
 .info_tarj span {
   color: #d13b3b;
   font-weight: 750;
-  font-size: 160%;
+  font-size: 190%;
+ 
 }
 
 .tarj_glob .barralat {
@@ -321,6 +357,7 @@ h3 {
 }
 
 .tarj_glob h5 {
+  font-family: 'mifont2';
   font-size: 170%;
   color: #d13b3b;
   margin-bottom: 2rem;
@@ -340,7 +377,8 @@ h3 {
 }
 
 .horario h4 {
-  font-size: 190%;
+  font-size: 230%;
+  font-family: 'mifont2';
   color: #d13b3b;
   text-shadow: 5px 5px 10px #0000004b;
 }
@@ -363,7 +401,8 @@ h3 {
 
 .junt_3 h5 {
   text-shadow: 5px 5px 10px #0000004b;
-  font-size: 150%;
+  font-size: 230%;
+  font-family: 'mifont2';
   color: #f30707;
 }
 
@@ -394,10 +433,13 @@ footer {
 
 .horario h5 {
   color:#d13b3b ;
+  font-family: 'mifont2';
+ 
 }
 
 footer h4 {
   font-size: 130%;
+  font-family: 'mifont';
 }
 
 .fot_ {
@@ -417,6 +459,8 @@ footer img {
 
 .ok {
   padding: 1rem 0rem;
+  font-size: 1.4rem;
+  font-family: 'mifont2';
 }
 
 /* ----------------media queries------------------ */
@@ -466,7 +510,7 @@ footer img {
   }
 
   .menulet h4 {
-    font-size: 260%;
+    font-size: 190%;
   }
 
   .dos {
@@ -495,7 +539,7 @@ footer img {
   .uno {
     height: 3vh;
     width: 100%;
-    background: #fddc4f;
+    background: #fddd4f00;
     border-radius: 3px;
   }
 
@@ -574,7 +618,7 @@ footer img {
 
   h2 {
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
 
   .sub {
