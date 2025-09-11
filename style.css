@@ -213,7 +213,7 @@ h3 {
   padding: 1.8rem; 
   background: #fddc4f;
   border-radius: 1.5rem;
-  text-shadow: 6px 6px 10px #00000069;
+  text-shadow: 6px 6px 10px #0000004c;
 }
 
 .menulet ul {
@@ -331,7 +331,7 @@ h3 {
 
 .promociones h4 {
   text-align: center;
-  font-size: 260%;
+  font-size: 240%;
   font-family: 'mifonty';
   color: #d13b3b;
   text-shadow: 5px 5px 10px #00000042;
@@ -510,7 +510,7 @@ footer img {
   }
 
   .menulet h4 {
-    font-size: 190%;
+    font-size: 160%;
   }
 
   .dos {
